@@ -5,7 +5,7 @@ import 'ag-grid-community/styles/ag-theme-alpine.css';
 import axios from 'axios';
 import { Loader2, AlertCircle } from 'lucide-react';
 
- function AgGrid() {
+export default function LargeData() {
   const [gridApi, setGridApi] = useState(null);
   const [totalRecords, setTotalRecords] = useState(null); // Initialize as null
   const [loading, setLoading] = useState(false);
@@ -140,7 +140,5 @@ import { Loader2, AlertCircle } from 'lucide-react';
     </div>
   );
 }
-
-export default AgGrid;
 
 

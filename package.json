@@ -48,9 +48,11 @@
     "file-saver": "^2.0.5",
     "flatpickr": "^4.6.13",
     "html2canvas": "^1.4.1",
+    "http-proxy-middleware": "^3.0.3",
     "jspdf": "^2.5.2",
     "jspdf-autotable": "^3.8.3",
     "leaflet": "^1.9.4",
+    "lucide-react": "^0.453.0",
     "node-sass": "^7.0.3",
     "node-snackbar": "^0.1.16",
     "post-loader": "^2.0.0",
@@ -76,10 +78,7 @@
     "xlsx-style": "^0.8.13"
   },
   "scripts": {
-    "start-react": "react-scripts start",
-    "start-json-server": "json-server --watch src/data/Db.json --port 3002",
-    "generate-data": "node src/data/generateData.js",
-    "start": "run-p generate-data start-json-server start-react",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
