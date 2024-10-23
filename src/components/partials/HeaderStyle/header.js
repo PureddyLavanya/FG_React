@@ -53,6 +53,7 @@ const Header = memo(() => {
   }, []);
   useEffect(()=>{
     setloggeduser(location.state);
+    console.log(location.state);
   },[location.state]);
 
   const appName = useSelector(SettingSelector.app_name);
